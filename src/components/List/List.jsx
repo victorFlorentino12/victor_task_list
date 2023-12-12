@@ -71,6 +71,14 @@ export const List = () => {
     <div className={styles.list_container}>
       <h1>Otimize seu tempo e se organize com o nosso Planejador Diário.</h1>
       <div className={styles.list}>
+      <div>
+            <div className={styles.opction}>
+                <p>Tarefa</p>
+                <p>Status</p>
+                <p>Opções</p>
+            </div>
+            <div className={styles.bar}></div>
+        </div>
         {todos.map((todo) => (
           <div className={styles.todo} key={todo.id}>
             <p>{todo.text}</p>

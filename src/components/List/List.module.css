@@ -17,6 +17,16 @@
     width: 50%;
     margin: auto;
 }
+.opction{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.bar{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
 .todo{
     display: flex;
     position: relative;
