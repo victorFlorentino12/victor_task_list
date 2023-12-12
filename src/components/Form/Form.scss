@@ -1,0 +1,28 @@
+.list_add{
+    
+    position: relative;
+    display: flex;
+    left: 50px;
+    width: 100%;
+   margin: 15px 0px 15px 0px;
+   
+}
+.list_add button{
+    font-family: 'Inter', sans-serif;
+    background: none;
+    color: white;
+    border: none;
+    text-align: left;
+    width: 75%;
+   position: absolute;
+   right: -330px;
+    cursor: pointer;
+}
+.list_add input{
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    background-color: transparent;
+     color: white;
+    border: none;
+    outline: 0;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+.list_container{
+    background-color:#2D2D2D ;
+    text-align: center;
+    width: 100%;
+    color: white;
+    height: 100vh;
+    font-family: 'Inter', sans-serif
+}
+.list_container h1{
+    font-family: 'Poppins';
+    padding: 50px 0px;
+}
+.list{
+    width: 50%;
+    margin: auto;
+}
+.todo{
+    display: flex;
+    position: relative;
+    left: 50px;
+    width: 100%;
+   margin: 15px 0px 15px 0px;
+    
+}
+.checkbox{
+position: absolute;
+right: 370px;
+
+}
+.images{
+    position: absolute;
+    right: 150px;
+  
+}
+.images img{
+    max-width: 25px;
+}
+button{
+    background: none;
+    border:none;
+    cursor: pointer;
+}
